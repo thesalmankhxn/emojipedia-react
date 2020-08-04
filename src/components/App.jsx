@@ -8,6 +8,7 @@ import "./index.css";
 function createCard(card) {
     return (
         <EmojiCard 
+            key={card.id}
             emoji={card.emoji}
             name={card.name}
             description={card.meaning}
